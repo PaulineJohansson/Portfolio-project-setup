@@ -25,36 +25,40 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <meta
+      name="description"
+      content="Pauline is a front-end engineer based in Sweden"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Front-end developer - Pauline Johansson</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo-shecodes-f9fa0540d113c086f61eb6e89466c0cbd24a42163b6a96d4b01da078803f53ee.png"
             class="logo d-none d-md-block"
-            alt=""
+            alt="Pauline Logo"
           />
           <img
             src="images/logo-small.jpeg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Pauline Logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Pauline"> About</a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Pauline's work"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Pauline"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -64,7 +68,9 @@
       <h1>Pauline Johansson</h1>
       <h2 class="mb-5">Front-end developer based in Sweden</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -79,7 +85,7 @@
           <div class="project-description">
             <h2 class="mb-5">Yogurt Project</h2>
             <p class="mb-5 text-muted">Far far away, behind the mountains...</p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -88,11 +94,15 @@
           <div class="project-description">
             <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted">Far far away, behind the mountains...</p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather Project Review"
+          />
         </div>
       </div>
       <div class="row mb-5">
@@ -103,11 +113,11 @@
           <div class="project-description">
             <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted">Far far away, behind the mountains...</p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
@@ -116,25 +126,53 @@
             <p>Let's work together!</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Pauline"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:pauline@email.com" class="email-link"
+          <a
+            href="mailto:pauline@email.com"
+            class="email-link"
+            title="Email Pauline"
             >pauline@email.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.instagram.com/pauline" target="_blank">
+          <a
+            href="https://www.instagram.com/pauline"
+            target="_blank"
+            title="Instagram Profile"
+          >
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://www.github.com/pauline" target="_blank">
+          <a
+            href="https://www.github.com/pauline"
+            target="_blank"
+            title="Github Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.facebook.com/pauline" target="_blank">
+          <a
+            href="https://www.facebook.com/pauline"
+            target="_blank"
+            title="Facebook Profile"
+          >
             <i class="fa-brands fa-facebook"></i>
           </a>
         </div>
+        <p class="text-center" mt-5>
+          This project was coded by Pauline, and it is
+          <a
+            href="https://www.github.com/paulinejohansson/portfolio-project-setup"
+            target="_blank"
+            >open-sourced.</a
+          >
+        </p>
       </footer>
     </div>
   </body>
